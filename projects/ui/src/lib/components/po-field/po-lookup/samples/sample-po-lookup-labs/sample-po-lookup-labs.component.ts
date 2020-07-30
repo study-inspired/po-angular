@@ -28,14 +28,12 @@ export class SamplePoLookupLabsComponent implements OnInit {
   private readonly columnsDefinition = {
     value: <PoLookupColumn>{ property: 'id', label: 'Id' },
     label: <PoLookupColumn>{ property: 'name', label: 'Name' },
-    phone: <PoLookupColumn>{ property: 'phone', label: 'Phone' },
     email: <PoLookupColumn>{ property: 'email', label: 'Email' }
   };
 
   public readonly columnsOptions: Array<PoCheckboxGroupOption> = [
     { value: 'value', label: 'Id' },
     { value: 'label', label: 'Name' },
-    { value: 'phone', label: 'Phone' },
     { value: 'email', label: 'Email' }
   ];
 
